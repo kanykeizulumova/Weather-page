@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Бишкек",
+        "temperature": 18,
+        "humidity": 45,
+        "wind": 12,
+        "weather": "sunny"
+    },
+    {
+        "name": "Ош",
+        "temperature": 20,
+        "humidity": 40,
+        "wind": 7,
+        "weather": "sunny"
+    },
+    {
+        "name": "Джалал-Абад",
+        "temperature": 19,
+        "humidity": 42,
+        "wind": 6,
+        "weather": "partly_cloudy"
+    },
+    {
+        "name": "Каракол",
+        "temperature": 10,
+        "humidity": 60,
+        "wind": 8,
+        "weather": "cloudy"
+    },
+    {
+        "name": "Чолпон-Ата",
+        "temperature": 12,
+        "humidity": 58,
+        "wind": 14,
+        "weather": "windy"
+    },
+    {
+        "name": "Нарын",
+        "temperature": 7,
+        "humidity": 50,
+        "wind": 11,
+        "weather": "rainy"
+    },
+    {
+        "name": "Талас",
+        "temperature": 14,
+        "humidity": 48,
+        "wind": 9,
+        "weather": "partly_cloudy"
+    },
+    {
+        "name": "Баткен",
+        "temperature": 21,
+        "humidity": 35,
+        "wind": 10,
+        "weather": "sunny"
+    }
+]
