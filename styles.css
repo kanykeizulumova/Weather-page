@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #e0f2fe;
+    color: #1e293b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header,
+.wrapper {
+    width: 100%;
+    max-width: 480px;
+}
+
+header {
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    padding: 30px 24px 20px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0f172a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+input {
+    flex: 1;
+    min-width: 200px;
+    padding: 12px 14px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+button {
+    background: #0284c7;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background: #0369a1;
+}
+
+.error {
+    width: 100%;
+    color: #ef4444;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.wrapper {
+    background: #ffffff;
+    border-radius: 0 0 20px 20px;
+    padding: 0 24px 28px;
+    box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.06);
+    border-top: 1px solid #f1f5f9;
+}
+
+#show-weather {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#show-weather:empty {
+    display: none;
+}
+
+.city-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+    text-align: center;
+    padding-top: 16px;
+    margin-bottom: 4px;
+}
+
+.weather {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0284c7;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.temperature {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    background: #f0f9ff;
+    padding: 14px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.humidity,
+.wind {
+    font-size: 14px;
+    color: #475569;
+    background: #f8fafc;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #f1f5f9;
+}
+
+.weatherTip {
+    font-size: 14px;
+    color: #0369a1;
+    background: #e0f2fe;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 4px;
+    text-align: center;
+}
