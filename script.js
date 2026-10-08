@@ -15,7 +15,7 @@ const weatherData = {
 
 async function loadData() {
     try {
-        const response = await fetch('/data.json');
+        const response = await fetch('data.json');
         catalogData = await response.json();
         console.log('Данные загружены');
         console.log(catalogData)
