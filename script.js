@@ -37,10 +37,9 @@ searchBtn.addEventListener('click', () => {
 
 function renderData(query) {
     let city = catalogData.find(el => el.name.toLowerCase() === query.toLowerCase());
-    const value = weatherData[city.weather];
 
     if (city === undefined) {
-        showWeatherDiv.innerHTML = `❌ Кечиресиз, мындай шаар табылган жок.`
+        showWeatherDiv.innerHTML = `❌ Кечиресиз, мындай шаар табылган жок.`;
     } else {
         let weatherTip = '';
         let weather = parseInt(city.temperature);
@@ -59,8 +58,9 @@ function renderData(query) {
   <p class="temperature">🌡 Температура: ${city.temperature}°C</p>
   <p class="humidity">💧 Нымдуулук: ${city.humidity}%</p>
   <p class="wind">💨  Шамал: ${city.wind} км/саат</p>
-  <p class="weather">${value}</p>
+  <p class="weather">${weatherData[city.weather]}</p>
   <p class="weatherTip">${weatherTip}</p>
 `;
+        errorMsg.hidden = true;
     }
 }
