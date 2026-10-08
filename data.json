@@ -18,7 +18,7 @@
         "temperature": 19,
         "humidity": 42,
         "wind": 6,
-        "weather": "partly_cloudy"
+        "weather": "cloudy"
     },
     {
         "name": "Каракол",
@@ -36,17 +36,17 @@
     },
     {
         "name": "Нарын",
-        "temperature": 7,
+        "temperature": -7,
         "humidity": 50,
         "wind": 11,
-        "weather": "rainy"
+        "weather": "snowy"
     },
     {
         "name": "Талас",
-        "temperature": 14,
+        "temperature": 0,
         "humidity": 48,
         "wind": 9,
-        "weather": "partly_cloudy"
+        "weather": "snowy"
     },
     {
         "name": "Баткен",
